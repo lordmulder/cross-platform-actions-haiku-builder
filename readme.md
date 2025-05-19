@@ -18,13 +18,13 @@ The following architectures and versions are supported:
 
 | Version | x86-64 |
 |---------|--------|
-| r1beta4 | ✓      |
+| r1beta5 | ✓      |
 
 ## Building Locally
 
 ### Prerequisite
 
-* [Packer](https://www.packer.io) 1.7.2 or later
+* [Packer](https://www.packer.io) 1.12.0 or later
 * [QEMU](https://qemu.org)
 
 ### Building
@@ -43,7 +43,7 @@ The following architectures and versions are supported:
     architectures available in the above table.
 
 The above command will build the VM image and the resulting disk image will be
-at the path: `output/haiku-r1beta4-x86-64.qcow2`.
+at the path: `output/haiku-r1beta5-x86-64.qcow2`.
 
 ## Additional Information
 
