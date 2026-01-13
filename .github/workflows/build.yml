@@ -102,7 +102,7 @@ jobs:
             [ "`uname -s`" = 'Haiku' ]
             [ "`uname -r`" = '${{ matrix.version.uname_release || matrix.version.name }}' ] || uname -v | grep -q '${{ matrix.version.uname_version }}'
             [ "`uname -m`" = '${{ matrix.architecture.uname || matrix.architecture.name }}' ] || [ "`uname -p`" = '${{ matrix.architecture.uname || matrix.architecture.name }}' ]
-            [ "`pwd`" = '/boot/home/home/runner/work/haiku-builder/haiku-builder' ]
+            [ "`pwd`" = '/boot/home/home/runner/work/cross-platform-actions-haiku-builder/cross-platform-actions-haiku-builder' ]
             [ "`hostname`" = 'runnervmg1sw1.local' ]
             cat host_to_guest.txt | grep -q 'host to guest'
             echo 'guest to host' > guest_to_host.txt
