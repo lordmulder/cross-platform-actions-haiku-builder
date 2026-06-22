@@ -3,7 +3,7 @@
 set -exu
 
 cleanup() {
-  find /var/log -type f | xargs truncate -s 0
+  truncate -s 0 /var/log/syslog
   rm -rf /tmp/*
 }
 
